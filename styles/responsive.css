@@ -1,0 +1,96 @@
+@media screen and (max-width: 600px) {
+  header .pheader #navul ul {
+    display: none;
+  }
+  .home .container .row .hometxt h2 {
+    font-size: 3em;
+  }
+  .home .container .row .hometxt p {
+    width: 90%;
+  }
+  .home .container .row div img {
+    height: 300px;
+  }
+  .conpartners .partners .container {
+    margin-top: 20px;
+  }
+  .conpartners .partners .container img {
+    width: 30%;
+  }
+  .about {
+    background: black;
+  }
+  .about .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .container .row .about2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .container .row .about2 img {
+    height: 400px;
+  }
+  .about .container .row .about1 .aboutxt h2 {
+    font-size: 2em;
+  }
+  .about .container .row .about1 .aboutxt h2 span {
+    font-size: 0.7em;
+  }
+  .about .container .row .about1 .aboutxt p {
+    width: 90%;
+  }
+  .tokenomics .container .row .tkn .tokentxt h2 {
+    font-size: 2em;
+  }
+  .tokenomics .container .row .tkn .tokentxt h2 span {
+    font-size: 0.8em;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p1 {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p2 {
+    width: 80%;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter {
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
+    opacity: 0.3;
+    right: 20px;
+    top: 0;
+    height: 200px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .tkimg {
+    height: 200px;
+  }
+  .buy .container-fluid .row .inbuy .buytxt h2 {
+    font-size: 2em;
+  }
+  .buy .container-fluid .row .inbuy .buytxt h2 span {
+    font-size: 0.7em;
+  }
+  .buy .container-fluid .row .mainb {
+    display: flex;
+    justify-content: center;
+  }
+  .buy .container-fluid .row .mainb div {
+    margin-left: 0px !important;
+  }
+  .roadmap .container .row .inroad .roadtxt h2 {
+    font-size: 2em;
+  }
+  .roadmap .container .row .inroad .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap .container .row .inroad .row .mainroad {
+    position: static;
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */

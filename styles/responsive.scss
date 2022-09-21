@@ -1,0 +1,179 @@
+@media screen and (max-width:600px) {
+header {
+        .pheader {
+            #navul {
+                ul {
+                    display: none;
+    }            }
+        }
+    }
+    .home{
+        // background:red;
+        .container{
+        .row{
+            .hometxt{
+                h2{
+                    font-size: 3em;
+                }
+                p{
+                    width: 90%;
+                }
+            }
+            div{
+                img{
+                    height: 300px;
+                }
+            }
+        }
+    }}
+
+        .conpartners {
+    
+            .partners {    
+                .container {
+                    margin-top: 20px;
+
+                    img{
+                        width: 30%;
+                    }
+                }
+            }
+        }
+
+        .about{
+            background: black;
+
+            .container{
+                .row{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // background-color: yellow;
+                    .about2{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    img{
+                        height: 400px;
+                    }
+                    }
+                    .about1{
+                    .aboutxt{
+                        h2{
+                            font-size: 2em;
+                            span{
+                                font-size: .7em;
+                            }
+                        }
+                        p{
+                            width: 90%;
+                        }
+                    }
+                }}
+            }
+        }
+
+        .tokenomics{
+            // background: red;
+
+            .container{
+                .row{
+                    .tkn{
+                        // background-color: yellowgreen;
+
+                        .tokentxt{
+                            // background-color: red;
+                            h2{
+                                font-size: 2em;
+
+                                span{
+                                    font-size: .8em;
+                                }
+                            }
+                            .p1{
+                                width: 80%;
+                                margin-top: 30px;
+                            }
+                            .p2{
+                                width: 80%;
+                            }
+                        .tkcenter {
+                            // background-color: red;
+                            margin-left: 0px;
+                            // align-items: flex-start;
+                            justify-content: center;
+                            
+                            .moon{
+                                opacity: .3;
+                                right: 20px;
+                                top: 0;
+                                height: 200px;
+                            }
+
+                            .tkimg{
+                                height: 200px;
+                            }
+}
+                        }
+                    }
+                }
+            }
+        }
+        .buy{
+            // background: red;
+
+            .container-fluid{
+                .row{
+                    .inbuy{
+                        .buytxt{
+                            
+                            h2{
+                                font-size: 2em;
+
+                                span{
+                                    font-size: .7em;
+                                }
+                            }
+                        }
+                    }
+                    .mainb{
+                        // background-color: green;
+                        display: flex;
+                        justify-content: center;
+
+                        div{
+                            margin-left: 0px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .roadmap{
+            // background: red;
+
+            .container{
+                .row{
+                    .inroad{
+                        .roadtxt{
+                            // background-color: green;
+
+                            h2{
+                                font-size: 2em;
+                            }
+                        }
+                        .row{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .mainroad{
+                                position: static;
+                                // background-color: blue;
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

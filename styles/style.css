@@ -1,0 +1,434 @@
+@import url("http://fonts.cdnfonts.com/css/product-sans");
+@import url("http://fonts.cdnfonts.com/css/gang-of-three");
+@import url("http://fonts.cdnfonts.com/css/akira-expanded");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/Bg/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-mode {
+  background-color: #fff;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFD02D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+li, a, button {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: #1E1E1E;
+}
+
+a:hover {
+  background-color: transparent !important;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #3e0b55;
+}
+header .pheader {
+  height: 100%;
+  width: 100%;
+}
+header .pheader .headimg {
+  display: flex;
+  align-items: center;
+}
+header .pheader .headimg .switch {
+  font-size: 30px;
+  color: #FFD02D;
+  margin-left: 40px;
+  cursor: pointer;
+}
+header .pheader #navul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .pheader #navul ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header .pheader #navul ul a {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+header .pheader #navul ul a li {
+  color: #fff;
+  font-family: "Product Sans", sans-serif;
+}
+header .pheader #navul ul button {
+  background-color: #FFD02D;
+  margin-top: 5px;
+  font-family: "Product Sans", sans-serif;
+}
+header .pheader #navul ul a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #FFD02D;
+          text-decoration-color: #FFD02D;
+}
+
+.home {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.home .container .row {
+  display: flex;
+  justify-content: center;
+}
+.home .container .row .hometxt {
+  margin-top: 70px;
+}
+.home .container .row .hometxt h2 {
+  color: #FFD02D;
+  font-size: 4em;
+  font-family: "Product Sans", sans-serif;
+}
+.home .container .row .hometxt h2 span {
+  color: #fff;
+  font-family: "Gang of Three", sans-serif;
+  display: block;
+}
+.home .container .row .hometxt p {
+  color: #fff;
+  font-family: "Product Sans", sans-serif;
+  width: 70%;
+}
+.home .container .row .hometxt .homebtn {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.home .container .row .hometxt .homebtn a {
+  font-family: "Product Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: #FFD02D;
+  color: #1E1E1E;
+  padding: 10px 20px;
+}
+.home .container .row .hometxt .homebtn i {
+  font-size: 2em;
+  color: #FFD02D;
+  margin-left: 20px;
+}
+.home .container .row .hometxt .homebtn a:hover {
+  color: #FFD02D;
+  border: 2px solid #FFD02D;
+}
+
+.conpartners {
+  height: auto;
+  background-color: #3e0b55;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conpartners .partners {
+  height: auto;
+  width: 80%;
+  background-color: #4A006C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.conpartners .partners .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.mainabout {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 50px;
+}
+.about .container .row .about1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.about .container .row .about1 .aboutxt {
+  height: auto;
+}
+.about .container .row .about1 .aboutxt h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  color: white;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+.about .container .row .about1 .aboutxt h2 span {
+  color: #FFD02D;
+  display: block;
+}
+.about .container .row .about1 .aboutxt h3 {
+  font-family: "Product Sans", sans-serif;
+  font-weight: lighter;
+  color: white;
+  word-spacing: 2px;
+  padding-bottom: 20px;
+}
+.about .container .row .about1 .aboutxt p {
+  color: #fff;
+  width: 100%;
+  font-family: "Product Sans", sans-serif;
+}
+
+.tokenomics {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/tokenomics.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 30px;
+  position: relative;
+}
+.tokenomics .container {
+  display: flex;
+}
+.tokenomics .container .row .tkn .tokentxt {
+  display: flex;
+  flex-direction: column;
+}
+.tokenomics .container .row .tkn .tokentxt h2 {
+  font-size: 2.5em;
+  color: #fff;
+  font-family: "Akira Expanded", sans-serif;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+.tokenomics .container .row .tkn .tokentxt h2 span {
+  color: #FFD02D;
+  display: block;
+}
+.tokenomics .container .row .tkn .tokentxt .p1 {
+  text-align: center;
+  padding: 10px;
+  background-color: #FFD02D;
+  width: 40%;
+  font-family: "Product Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+.tokenomics .container .row .tkn .tokentxt .p2 {
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  font-family: "Product Sans", sans-serif;
+}
+.tokenomics .container .row .tkn .tokentxt .tkcenter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
+  position: absolute;
+  bottom: 0;
+  right: 140px;
+}
+
+.buy {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/buy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.buy .container-fluid .row {
+  display: flex;
+  justify-content: center;
+}
+.buy .container-fluid .row .inbuy {
+  margin-top: 50px;
+}
+.buy .container-fluid .row .inbuy .buytxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buy .container-fluid .row .inbuy .buytxt h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+}
+.buy .container-fluid .row .inbuy .buytxt h2 span {
+  display: block;
+  color: #FFD02D;
+}
+.buy .container-fluid .row .inbuy .buytxt button {
+  padding: 10px 30px;
+  font-family: "Akira Expanded", sans-serif;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.buy .container-fluid .row .inbuy .mainb {
+  margin-top: 50px;
+}
+.buy .container-fluid .row .inbuy .mainb div {
+  background-color: #FFD02D;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+.buy .container-fluid .row .inbuy .mainb div span {
+  font-size: 20px;
+  font-family: "Product Sans", sans-serif;
+  background-color: black;
+  color: #FFD02D;
+  padding: 20px;
+  border-radius: 100%;
+  text-align: center;
+}
+.buy .container-fluid .row .inbuy .mainb div h3 {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.roadmap {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.roadmap .container .row .inroad .roadtxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap .container .row .inroad .roadtxt h2 {
+  color: #fff;
+  font-size: 3em;
+  font-family: "Akira Expanded", sans-serif;
+  text-align: center;
+}
+.roadmap .container .row .inroad .roadtxt h2 span {
+  color: #FFD02D;
+  display: block;
+  font-size: 0.5em;
+}
+.roadmap .container .row .inroad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+}
+.roadmap .container .row .inroad .row {
+  display: flex;
+  height: auto;
+}
+.roadmap .container .row .inroad .row .mainroad {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: auto;
+}
+.roadmap .container .row .inroad .row .mainroad ul {
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.roadmap .container .row .inroad .row .mainroad ul h2 {
+  font-family: "Akira Expanded", sans-serif;
+  color: white;
+  display: block;
+}
+.roadmap .container .row .inroad .row .mainroad ul li {
+  list-style-image: url(../img/icons/list.png);
+  list-style-position: outside;
+  font-family: "Product Sans", sans-serif;
+  width: 70%;
+  color: lightgray;
+  padding-bottom: 10px;
+}
+.roadmap .container .row .inroad .row .mainroad2 {
+  position: relative;
+  top: 50px;
+}
+.roadmap .container .row .inroad .row .mainroad3 {
+  position: relative;
+  top: 50px;
+}
+.roadmap .container .row .inroad .row .mainroad4 {
+  position: relative;
+  top: 100px;
+}
+.roadmap .container .row .inroad .row .mainroad5 {
+  position: relative;
+  top: 50px;
+}/*# sourceMappingURL=style.css.map */
