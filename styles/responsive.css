@@ -11,11 +11,15 @@
   .home .container .row div img {
     height: 300px;
   }
+  .conpartners .partners {
+    width: 90%;
+  }
   .conpartners .partners .container {
     margin-top: 20px;
   }
   .conpartners .partners .container img {
-    width: 30%;
+    width: 40%;
+    margin-left: 20px;
   }
   .about {
     background: black;

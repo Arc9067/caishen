@@ -33,15 +33,27 @@ background: url(../img/Bg/home.png);
 ::-webkit-scrollbar-thumb:hover {
         background: #fff;}
 
-@import url('http://fonts.cdnfonts.com/css/product-sans');
-@import url('http://fonts.cdnfonts.com/css/gang-of-three');
-@import url('http://fonts.cdnfonts.com/css/akira-expanded');
 
-$Akira: 'Akira Expanded',
+@font-face {
+    font-family: Gang;
+    src: url(../Font/go3v2.ttf);
+}
+
+@font-face {
+    font-family: Product;
+    src: url(../Font/ProductSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: Akira;
+    src: url(../Font/Akira\ Expanded\ Demo.otf);
+}
+
+$Akira: Akira,
 sans-serif;
-$Gang:'Gang of Three',
+$Gang:Gang,
 sans-serif;
-$Product:'Product Sans',
+$Product: Product,
 sans-serif;
 
 li, a, button{

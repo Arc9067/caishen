@@ -1,6 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/product-sans");
-@import url("http://fonts.cdnfonts.com/css/gang-of-three");
-@import url("http://fonts.cdnfonts.com/css/akira-expanded");
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +34,18 @@ body {
   background: #fff;
 }
 
+@font-face {
+  font-family: Gang;
+  src: url(../Font/go3v2.ttf);
+}
+@font-face {
+  font-family: Product;
+  src: url(../Font/ProductSans-Thin.ttf);
+}
+@font-face {
+  font-family: Akira;
+  src: url(../Font/Akira\ Expanded\ Demo.otf);
+}
 li, a, button {
   list-style: none;
   text-decoration: none;
@@ -88,12 +97,12 @@ header .pheader #navul ul a {
 }
 header .pheader #navul ul a li {
   color: #fff;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
 }
 header .pheader #navul ul button {
   background-color: #FFD02D;
   margin-top: 5px;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
 }
 header .pheader #navul ul a:hover {
   background-color: transparent;
@@ -120,16 +129,16 @@ header .pheader #navul ul a:hover {
 .home .container .row .hometxt h2 {
   color: #FFD02D;
   font-size: 4em;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
 }
 .home .container .row .hometxt h2 span {
   color: #fff;
-  font-family: "Gang of Three", sans-serif;
+  font-family: Gang, sans-serif;
   display: block;
 }
 .home .container .row .hometxt p {
   color: #fff;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   width: 70%;
 }
 .home .container .row .hometxt .homebtn {
@@ -138,7 +147,7 @@ header .pheader #navul ul a:hover {
   margin-top: 30px;
 }
 .home .container .row .hometxt .homebtn a {
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   text-transform: uppercase;
   background-color: #FFD02D;
   color: #1E1E1E;
@@ -210,7 +219,7 @@ header .pheader #navul ul a:hover {
   height: auto;
 }
 .about .container .row .about1 .aboutxt h2 {
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   font-weight: bolder;
   font-size: 3em;
   color: white;
@@ -222,7 +231,7 @@ header .pheader #navul ul a:hover {
   display: block;
 }
 .about .container .row .about1 .aboutxt h3 {
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   font-weight: lighter;
   color: white;
   word-spacing: 2px;
@@ -231,7 +240,7 @@ header .pheader #navul ul a:hover {
 .about .container .row .about1 .aboutxt p {
   color: #fff;
   width: 100%;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
 }
 
 .tokenomics {
@@ -254,7 +263,7 @@ header .pheader #navul ul a:hover {
 .tokenomics .container .row .tkn .tokentxt h2 {
   font-size: 2.5em;
   color: #fff;
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   font-weight: bolder;
   margin-top: 30px;
 }
@@ -267,7 +276,7 @@ header .pheader #navul ul a:hover {
   padding: 10px;
   background-color: #FFD02D;
   width: 40%;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   text-transform: uppercase;
   font-weight: bolder;
   border-radius: 20px;
@@ -276,7 +285,7 @@ header .pheader #navul ul a:hover {
   width: 60%;
   color: #fff;
   text-align: center;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
 }
 .tokenomics .container .row .tkn .tokentxt .tkcenter {
   width: 100%;
@@ -314,7 +323,7 @@ header .pheader #navul ul a:hover {
   flex-direction: column;
 }
 .buy .container-fluid .row .inbuy .buytxt h2 {
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   font-size: 2em;
   text-align: center;
   color: #fff;
@@ -325,7 +334,7 @@ header .pheader #navul ul a:hover {
 }
 .buy .container-fluid .row .inbuy .buytxt button {
   padding: 10px 30px;
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   font-weight: bolder;
   border-radius: 10px;
   margin-top: 20px;
@@ -343,7 +352,7 @@ header .pheader #navul ul a:hover {
 }
 .buy .container-fluid .row .inbuy .mainb div span {
   font-size: 20px;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   background-color: black;
   color: #FFD02D;
   padding: 20px;
@@ -372,7 +381,7 @@ header .pheader #navul ul a:hover {
 .roadmap .container .row .inroad .roadtxt h2 {
   color: #fff;
   font-size: 3em;
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   text-align: center;
 }
 .roadmap .container .row .inroad .roadtxt h2 span {
@@ -404,14 +413,14 @@ header .pheader #navul ul a:hover {
   padding-bottom: 20px;
 }
 .roadmap .container .row .inroad .row .mainroad ul h2 {
-  font-family: "Akira Expanded", sans-serif;
+  font-family: Akira, sans-serif;
   color: white;
   display: block;
 }
 .roadmap .container .row .inroad .row .mainroad ul li {
   list-style-image: url(../img/icons/list.png);
   list-style-position: outside;
-  font-family: "Product Sans", sans-serif;
+  font-family: Product, sans-serif;
   width: 70%;
   color: lightgray;
   padding-bottom: 10px;
