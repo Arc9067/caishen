@@ -300,7 +300,8 @@ header .pheader #navul ul a:hover {
 .tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
   position: absolute;
   bottom: 0;
-  right: 140px;
+  left: 0px;
+  opacity: 0.5;
 }
 
 .buy {
@@ -310,6 +311,7 @@ header .pheader #navul ul a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .buy .container-fluid .row {
   display: flex;

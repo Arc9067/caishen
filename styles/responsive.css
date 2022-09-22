@@ -100,4 +100,31 @@
   .roadmap .container .row .inroad .row .mainroad ul li {
     width: 90%;
   }
+}
+@media (min-width: 600px) and (max-width: 991px) {
+  .about .container .row .about2 img {
+    margin-right: 40px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p1 {
+    width: 60%;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter {
+    margin-left: 0;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
+    bottom: 0;
+    left: 0px;
+  }
+  .roadmap .container .row .inroad .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap .container .row .inroad .row .mainroad {
+    position: static;
+    margin-left: 0;
+  }
+  .roadmap .container .row .inroad .row .mainroad ul li {
+    width: 90%;
+  }
 }/*# sourceMappingURL=responsive.css.map */

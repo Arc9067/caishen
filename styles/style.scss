@@ -343,7 +343,8 @@ background: url(../img/Bg/home.png);
                         .moon{
                             position: absolute;
                             bottom: 0;
-                            right: 140px;
+                            left: 0px;
+                            opacity: .5;
                         }
                     }
                 }
@@ -359,6 +360,7 @@ background: url(../img/Bg/home.png);
     background: url(../img/Bg/buy.png);
     background-repeat: no-repeat;
     background-size: cover;    padding-bottom: 50px;
+    overflow: hidden;
 
     .container-fluid{
         .row{
