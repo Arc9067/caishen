@@ -40,11 +40,13 @@ body {
 }
 @font-face {
   font-family: Product;
-  src: url(../Font/ProductSans-Thin.ttf);
+  src: url(../Font/ProductSans-Black.ttf);
 }
 @font-face {
   font-family: Akira;
   src: url(../Font/Akira\ Expanded\ Demo.otf);
+  font-weight: 800;
+  font-style: normal;
 }
 li, a, button {
   list-style: none;

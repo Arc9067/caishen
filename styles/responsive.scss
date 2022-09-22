@@ -172,6 +172,12 @@ header {
                                 position: static;
                                 // background-color: blue;
                                 margin-left: 0;
+
+                                ul{
+                                    li{
+                                        width: 90%;
+                                    }
+                                }
                             }
                         }
                     }

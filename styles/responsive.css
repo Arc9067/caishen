@@ -97,4 +97,7 @@
     position: static;
     margin-left: 0;
   }
+  .roadmap .container .row .inroad .row .mainroad ul li {
+    width: 90%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
