@@ -100,6 +100,49 @@
   .roadmap .container .row .inroad .row .mainroad ul li {
     width: 90%;
   }
+  .dev {
+    width: 100%;
+  }
+  .dev .container .row .devtxt {
+    width: 90%;
+  }
+  .dev .container .row .devtxt h2 {
+    font-size: 1.7em;
+  }
+  .dev .container .row .devdes .devimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .charity .container .row .charityhead p {
+    width: 95%;
+  }
+  .charity .container .row .charitydes .row .desp {
+    width: 90%;
+  }
+  footer .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .row .fotimg {
+    order: 5;
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .row .fotimg img {
+    display: block;
+  }
+  footer .container .row .fotimg p {
+    display: block;
+  }
+  footer .container .row .footdes {
+    order: 1;
+    padding-bottom: 50px;
+  }
+  footer .container .row .footdes .row .footul {
+    order: 10;
+  }
 }
 @media (min-width: 600px) and (max-width: 991px) {
   .about .container .row .about2 img {

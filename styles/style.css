@@ -444,4 +444,110 @@ header .pheader #navul ul a:hover {
 .roadmap .container .row .inroad .row .mainroad5 {
   position: relative;
   top: 50px;
+}
+
+.dev {
+  height: auto;
+  width: 100%;
+  background: url(../img/Bg/about.png);
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.dev .container .row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.dev .container .row .devtxt {
+  width: 40%;
+}
+.dev .container .row .devtxt h2 {
+  font-size: 2em;
+  font-family: Akira, sans-serif;
+  color: transparent;
+  font-size: 40px;
+  -webkit-text-stroke: 2px white;
+}
+.dev .container .row .devtxt h2 span {
+  color: white;
+  -webkit-text-stroke: 2px transparent;
+}
+.dev .container .row .devdes .devtxtm {
+  padding: 20px;
+  font-family: Product, sans-serif;
+  border-radius: 20px;
+  border: 2px solid #FFD02D;
+  color: lightgray;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charity {
+  height: auto;
+  width: 100%;
+  color: white;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  overflow: hidden;
+}
+.charity .container .row .charityhead h2 {
+  font-family: Akira, sans-serif;
+  font-size: 3em;
+  display: block;
+}
+.charity .container .row .charityhead p {
+  width: 90%;
+}
+.charity .container .row .charitydes .row .desp {
+  width: 80%;
+}
+
+.pricem {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10vh;
+  padding: 0;
+  overflow: hidden;
+}
+.pricem .price {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #3e0b55;
+  margin-top: 50px;
+}
+footer .container .row {
+  padding-top: 20px;
+}
+footer .container .row .fotimg p {
+  width: 90%;
+  color: lightgray;
+}
+footer .container .row .fotimg p span {
+  display: block;
+}
+footer .container .row .footdes .row .footul {
+  margin-left: 20px;
+  padding: 0;
+}
+footer .container .row .footdes .row .footul ul {
+  color: lightgray;
+}
+footer .container .row .footdes .row .footul ul h2 {
+  font-size: 2em;
+  color: #fff;
+}
+footer .container .row .footdes .row .footul ul li {
+  color: lightgrey;
+}
+footer .container .row .footdes .row .footul ul li i {
+  padding-right: 20px;
+  color: lightgray;
 }/*# sourceMappingURL=style.css.map */

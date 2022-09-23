@@ -184,6 +184,92 @@ header {
                 }
             }
         }
+
+        .dev{
+            // background: red;
+            width: 100%;
+
+            .container{
+                .row{
+                    .devtxt{
+                        width: 90%;
+
+                        h2{
+                            font-size: 1.7em;
+                        }
+                    }
+                    .devdes{
+                        .devimg{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .charity{
+            // background-color: red;
+
+
+            .container{
+                .row{
+                    // background-color: blue;
+
+                    .charityhead{
+                        p{
+                            width: 95%;
+                        }
+                    }
+                    .charitydes{
+                        .row{
+                            .desp{
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            // background-color: red;
+
+            .container{
+                .row{
+                    display: flex;
+                    // background-color: black;
+                    justify-content: center;
+                    align-items: center;
+
+                    .fotimg{
+                        // background-color: blue;
+                        order: 5;
+                        display: flex;
+                        justify-content: center;
+
+                        img{
+                            display: block;
+                        }
+                        p{
+                            display: block;
+                        }
+                    }
+                    .footdes{
+                        order: 1;
+                        // background-color: aqua;
+                        padding-bottom: 50px;
+
+                        .row{
+                            .footul{
+                                order: 10;
+                                // background-color: yellowgreen;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 }
 
 
