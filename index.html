@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/nav.css">
     <link rel="stylesheet" href="./styles/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="icon" href="./img/logo.png">   
@@ -25,11 +26,11 @@
                 </div>
                 <div class="col-lg-7" id="navul">
                     <ul>
-                        <a href=""><li>About</li></a>
-                        <a href=""><li>Tokenomics</li></a>
-                        <a href=""><li>How To Buy</li></a>
-                        <a href=""><li>Roadmap</li></a>
-                        <button type="button" class="btn btn-lg">BUY NOW</button>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#tokenomics"><li>Tokenomics</li></a>
+                        <a href="#buy"><li>How To Buy</li></a>
+                        <a href="#roadmap"><li>Roadmap</li></a>
+                        <button type="button" class="btn btn-lg disabled">BUY NOW</button>
 
                     </ul>
                 </div>
@@ -37,10 +38,10 @@
         </div>
     </header>
 
-    <section class="container-fluid home">
+    <section class="container-fluid home" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="3000">
                     <div class="hometxt">
                     <h2>Welcome to <span>Caishen Coin</span></h2>
                     <p>The story’s of Caishen have been told many ways for many years from far before our existence. Caishen is known as the
@@ -77,7 +78,7 @@
 
         </div>
 
-    <section class="about container-fluid">
+    <section class="about container-fluid" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-5 about2">
@@ -85,7 +86,7 @@
                 </div>
 
                 <div class="col-lg-7 col-md-6 about1">
-                    <div class="aboutxt">
+                    <div class="aboutxt" data-aos="fade-left" data-aos-duration="3000">
                         <h2>About <span>Caishen Coin</span></h2>
                         <h3>Welcome to Caishen Coin</h3>
                         <p>
@@ -104,16 +105,16 @@
     </div>
 
 
-    <section class="tokenomics container-fluid">
+    <section class="tokenomics container-fluid" id="tokenomics">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 tkn">
                     <div class="tokentxt">
-                        <h2>Tokenomics <span>Caishen Coin</span></h2>
-                        <div class="tkcenter col-lg-8 col-sm-10">
-                            <p class="p1">Total supply : 1 billion CaishenC</p>
-                            <p class="p2">Token allocation: 100% of the supply will be added to the Caishen contract at launch.</p>
-                            <img class="tkimg" src="./img/tokenomics.png" height="350px" alt="">
+                        <h2 data-aos="fade-right" data-aos-duration="2000">Tokenomics <span>Caishen Coin</span></h2>
+                        <div class="tkcenter col-lg-8 col-sm-10" >
+                            <p data-aos="fade-left" data-aos-duration="3000" class="p1">Total supply : 1 billion CaishenC</p>
+                            <p data-aos="fade-left" data-aos-duration="3000" class="p2">Token allocation: 100% of the supply will be added to the Caishen contract at launch.</p>
+                            <img data-aos="fade-left" data-aos-duration="3000" class="tkimg" src="./img/tokenomics.png" height="350px" alt="">
                             <img class="moon" src="./img/moon.png" height="300px" alt="">
                         </div>
                     </div>
@@ -122,21 +123,28 @@
         </div>
     </section>    
 
-    <section class="container-fluid buy">
+    <section class="container-fluid buy" id="buy">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-10 inbuy">
-                <div class="buytxt">
+                <div class="buytxt" data-aos="fade-left"
+     data-aos-anchor-placement="center-center" data-aos-duration="2000">
                     <h2>How to Buy <span>Caishen Coin</span></h2>
                     <button><img src="./img/icons/buyicon.png" height="30px" alt=""> How to Buy</button>
                 </div>
                 <div class="row mainb">
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>01</span><h3>-using your secure wallet i.e. Metamask/Trust wallet, connect to uniswap exchange.</h3></div>
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>02</span><h3>-Use the Caishen coin contract address(posted at launch)</h3></div>
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>03</span><h3>-Input the address into uniswap to select the pair for CaishenC</h3></div>
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>04</span><h3>-Select the amount of ETH you would like to trade for CaishenC.</h3></div>
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>05</span><h3>-set slippage to 5/6 and when ready swap your Ethereum for CaishenC.</h3></div>
-                    <div class="col-lg-5 col-md-5 col-sm-10"><span>06</span><h3>-Add CaishenC to your wallet to make tokens visible using the Contract Address or directly through uniswap.</h3></div>
+                    <div data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>01</span><h3>-using your secure wallet i.e. Metamask/Trust wallet, connect to uniswap exchange.</h3></div>
+                    <div data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>02</span><h3>-Use the Caishen coin contract address(posted at launch)</h3></div>
+                    <div data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>03</span><h3>-Input the address into uniswap to select the pair for CaishenC</h3></div>
+                    <div data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>04</span><h3>-Select the amount of ETH you would like to trade for CaishenC.</h3></div>
+                    <div data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>05</span><h3>-set slippage to 5/6 and when ready swap your Ethereum for CaishenC.</h3></div>
+                    <div data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="col-lg-5 col-md-5 col-sm-10"><span>06</span><h3>-Add CaishenC to your wallet to make tokens visible using the Contract Address or directly through uniswap.</h3></div>
                 </div>
             </div>
 
@@ -144,17 +152,19 @@
         </div>
     </section>
 
-    <section class="roadmap container-fluid">
+    <section class="roadmap container-fluid" id="roadmap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 inroad">
                     <div class="roadtxt">
-                        <h2>Roadmap <span>Caishen Coin</span></h2>
+                        <h2 data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Roadmap <span>Caishen Coin</span></h2>
                     </div>
                 </div>
                 <div class="col-lg-12 inroad">
                     <div class="row">
-                        <div class="col-lg-5 col-sm-8 mainroad">
+                        <div class="col-lg-5 col-sm-8 mainroad" data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                             <ul>
                                 <h2>phase 1</h2>
                                 <li>Start Caishen socials including a Twitter space, a Reddit page, medium account.</li>
@@ -162,7 +172,8 @@
                                 <li>Open telegram home base</li>
                             </ul>
                         </div>
-                        <div class="col-lg-5 col-sm-8 mainroad mainroad2">
+                        <div class="col-lg-5 col-sm-8 mainroad mainroad2" data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                             <ul>
                                 <h2>Phase 2</h2>
                                 <li>Do a short marketing campaign by releasing Twitter posts and telegram shills informing investors of the immediate stealth launch of caishen Coin</li>
@@ -172,7 +183,8 @@
                                 <li>renounce contract and proceed</li>
                             </ul>
                         </div>
-                        <div class="col-lg-5 col-sm-8 mainroad mainroad3">
+                        <div class="col-lg-5 col-sm-8 mainroad mainroad3" data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                             <ul>
                                 <h2>Phase 3</h2>
                                 <li>Start Caishen socials including a Twitter space, a Reddit page, medium account.</li>
@@ -181,7 +193,8 @@
  
                             </ul>
                         </div>
-                        <div class="col-lg-5 col-sm-8 mainroad mainroad4">
+                        <div class="col-lg-5 col-sm-8 mainroad mainroad4" data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                             <ul>
                                 <h2>Phase 4</h2>
                                 <li>Start Caishen socials including a Twitter space, a Reddit page, medium account.</li>
@@ -190,7 +203,8 @@
 
                             </ul>
                         </div>
-                        <div class="col-lg-5 col-sm-8 mainroad mainroad5">
+                        <div class="col-lg-5 col-sm-8 mainroad mainroad5" data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                             <ul>
                                 <h2>Phase 5</h2>
                                 <li>Start Caishen socials including a Twitter space, a Reddit page, medium account.</li>
@@ -210,17 +224,19 @@
         </div>
     </section>
 
-    <section class="dev container-fluid">
+    <section class="dev container-fluid" id="dev">
         <div class="container">
             <div class="row">
                 <div class="devtxt">
-                    <h2>Word from the <span>Developers</span></h2>
+                    <h2 data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Word from the <span>Developers</span></h2>
                 </div>
                 <div class="devdes row">
                     <div class="devimg col-lg-4">
                         <img src="./img/dev.png" height="400px" alt="">
                     </div>
-                    <div class="devtxtm col-lg-8">
+                    <div class="devtxtm col-lg-8" data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                         <p>Hey everyone, and thank you for being here and taking part in our fun new bullish investment that also helps change the
                         lives of others. Our goal At Caishen is to provide a safe investment opportunity to my fellow traders while also helping
                         the less fortunate. By renouncing the contract at launch and locking liquidity for 100 years, I hope people can see that
@@ -235,12 +251,14 @@
     </section>
 
 
-    <section class="charity container-fluid">
+    <section class="charity container-fluid" id="charity">
         <div class="container">
             <div class="row">
                 <div class="charityhead col-lg-10">
-                    <h2>charity</h2>
-                    <p>The power of water connects every aspect of life. Access to safe water and sanitation can quickly turn problems into
+                    <h2 data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000">charity</h2>
+                    <p data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000">The power of water connects every aspect of life. Access to safe water and sanitation can quickly turn problems into
                     potential – empowering people with time for school and work, and contributing to improved health for women, children,
                     and families around the world.
                     Today, 771 million people – 1 in 10 – lack access to safe water and 1.
@@ -255,7 +273,8 @@
                 <div class="charitydes col-lg-12">
                     <div class="row">
                         <div class="col-lg-6">
-                        <p class="desp">Victims of natural disasters and people in desolate locations on earth don’t have a choice to turn the tap on, but
+                        <p data-aos="fade-right"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="3000" class="desp">Victims of natural disasters and people in desolate locations on earth don’t have a choice to turn the tap on, but
                         everyone deserves the right to water, at Caishen we will do our small part by public donating 2% of each buy and sell
                         transaction to charity’s aligned with our Cause. The charity’s may change per Donation, but will always be made public
                         and in the Name of Caishen coin. As you reap the rewards of Caishens Success in the charts, sleep easy
@@ -296,20 +315,20 @@
                             <ul>
                                 <h2>Links</h2>
                                 <a href=""><li>Home</li></a>
-                                <a href=""><li>About</li></a>
-                                <a href=""><li>Tokenomics</li></a>
-                                <a href=""><li>How To Buy</li></a>
-                                <a href=""><li>Roadmap</li></a>
-                                <a href=""><li>Dev's Word</li></a>
-                                <a href=""><li>Charity</li></a>
+                                <a href="#about"><li>About</li></a>
+                                <a href="#tokenomics"><li>Tokenomics</li></a>
+                                <a href="#buy"><li>How To Buy</li></a>
+                                <a href="#roadmap"><li>Roadmap</li></a>
+                                <a href="#dev"><li>Dev's Word</li></a>
+                                <a href="#charity"><li>Charity</li></a>
                             </ul>
                         </div>
                         <div class="col-lg-5 footul">
                             <ul>
                                 <h2>Follow Us</h2>
-                                <a href=""><li><i class="fa-brands fa-telegram"></i> Telgram</li></a>
-                                <a href=""><li><i class="fa-brands fa-twitter"></i>Twitter</li></a>
-                                <a href=""><li><i class="fa-solid fa-toilet-paper"></i>WhitePaper</li></a>
+                                <a target="_blank" href="https://t.me/CaishenCoinPortal"><li><i class="fa-brands fa-telegram"></i> Telgram</li></a>
+                                <a target="_blank" href="https://twitter.com/CaishenCoin_?t=IEZR9R1v8Ugl4BGZ9cTXzA&s=35"><li><i class="fa-brands fa-twitter"></i>Twitter</li></a>
+                                <a target="_blank" href="https://github.com/Caishen-Coin/Whitepaper/blob/main/CC%20whitepaper.pdf"><li><i class="fa-solid fa-toilet-paper"></i>WhitePaper</li></a>
                             </ul>
 
                         </div>
@@ -321,6 +340,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
 
         <script src="./scripts/index.js"></script>
 </body>
