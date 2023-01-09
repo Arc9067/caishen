@@ -1,5 +1,5 @@
 # caishen
-A frontend website for Brigade Inu builtd using html-css-js
+A frontend website for caishen Inu built using html-css-js-bootstrap
 
 ## Technologies used
 
